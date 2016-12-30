@@ -57,7 +57,6 @@
             $.getScript('https://cdn.jsdelivr.net/sockjs/1.0.3/sockjs.min.js', loadSocket);
         } else loadSocket();
     }
-
     var sendToSocket = function () {
         var basicBotSettings = basicBot.settings;
         var basicBotRoom = basicBot.room;
@@ -99,7 +98,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json", function (json) {
+        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -240,9 +239,9 @@
         status: false,
         name: "TriHardBot",
         loggedInID: null,
-        scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json",
+        chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -250,8 +249,8 @@
         settings: {
             botName: "TriHardBot",
             language: "english",
-            chatLink: "https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json",
-            scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
+            scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -309,9 +308,9 @@
             songstats: false,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/Brundeen/custom/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/Brundeen/custom/master/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/Brundeen/custom/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
@@ -1498,7 +1497,6 @@
                                 if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                                 if( !basicBot.commands.executable(this.rank, chat) ) return void (0);
                                 else{
-
                                 }
                         }
                 },
@@ -2046,9 +2044,7 @@
             },
 
             /*
-
             // This does not work anymore.
-
             deletechatCommand: {
                 command: 'deletechat',
                 rank: 'mod',
@@ -2069,18 +2065,15 @@
                         for (var i = 0; i < chats.length; i++) {
                             var n = from[i].textContent;
                             if (name.trim() === n.trim()) {
-
                                 // var messagecid = $(message)[i].getAttribute('data-cid');
                                 // var emotecid = $(emote)[i].getAttribute('data-cid');
                                 // API.moderateDeleteChat(messagecid);
-
                                 // try {
                                 //     API.moderateDeleteChat(messagecid);
                                 // }
                                 // finally {
                                 //     API.moderateDeleteChat(emotecid);
                                 // }
-
                                 if (typeof $(message)[i].getAttribute('data-cid') == "undefined"){
                                     API.moderateDeleteChat($(emote)[i].getAttribute('data-cid')); // works well with normal messages but not with emotes due to emotes and messages are seperate.
                                 } else {
@@ -2092,7 +2085,6 @@
                     }
                 }
             },
-
             */
 
             deletechatCommand: {
@@ -2490,7 +2482,7 @@
                         if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentlang, {language: basicBot.settings.language}));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get("https://raw.githubusercontent.com/Brundeen/source/master/lang/langIndex.json", function (json) {
+                        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === "undefined") {
