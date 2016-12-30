@@ -96,8 +96,8 @@ Resident DJ
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!link | | give a link to the current song
 |!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
+|!link | | give a link to the current song
 
 
 
