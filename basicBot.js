@@ -240,7 +240,7 @@
         name: "TriHardBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://goo.gl/ENKSw4",
         chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
