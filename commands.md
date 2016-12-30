@@ -4,6 +4,13 @@ Commands:
 X specifies a number  
 Arguments between ( ) are optional
 
+Co-Host
+-------
+
+|Command | Arguments |  Description |
+|:------:|:---------:|:--------------------------------------:|
+|!roulette | | start a game of roulette |
+
 
 Manager
 -------
@@ -43,7 +50,6 @@ Bouncer+
 |!lockdown | | lock down the room: only staff can chat |
 |!move | @user (X) | moves user to position X on the waitlist, default is position 1 |
 |!remove | @user | remove user from the waitlist |
-|~~!roulette~~ | | ~~start a roulette~~ |
 |!songstats | | toggle song statistics |
 |!unlock | | unlock the waitlist |
 |!welcome | | toggle the welcome message on user join |
