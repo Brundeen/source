@@ -24,6 +24,7 @@ Manager
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
 |!logout | | logs out account bot is hosted on |
 |!refresh | | refreshes the browser of whoever runs the bot |
+|!reload | | reload the bot |
 |!usercmdcd | X | set the cooldown on commands by grey users |
 |!usercommands | | toggle user commands |
 |!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
@@ -71,7 +72,6 @@ Bouncer
 |!lockguard | | toggle the lockguard |
 |!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
 |!mute | @user/(X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
-|!reload | | reload the bot |
 |!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
 |!sessionstats | | display stats for the current session |
 |!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
