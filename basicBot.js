@@ -300,7 +300,7 @@
             welcome: true,
             opLink: null,
             rulesLink: null,
-            themeLink: Electronic, mostly trance and deep house,
+            themeLink: null,
             fbLink: null,
             youtubeLink: null,
             website: http://www.hexis-rs.info,
