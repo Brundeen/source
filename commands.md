@@ -17,6 +17,7 @@ Manager
 |!clearchat | |clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
+|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
 |!kill | | shut down the bot |
 |!language | (language) | specify the language you would like the bot to use |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
@@ -109,7 +110,6 @@ User
 |!eta | | shows how long before you reach the booth |
 |!fb | | links to the room's Facebook page (if set in the settings) |
 |!ghostbuster | @user | checks if user is ghosting |
-|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
 |!help | | links to an image to help get people started on plug |
 |~~!join~~ | | ~~join the roulette if it's up~~ |
 |~~!leave~~ | | ~~leave the roulette if you joined~~ |
