@@ -2451,24 +2451,24 @@
                 }
             },
 
-            killCommand: {
-                command: 'kill',
-                rank: 'manager',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        storeToStorage();
+            //killCommand: {
+                //command: 'kill',
+               //rank: 'manager',
+               //type: 'exact',
+               // functionality: function (chat, cmd) {
+                   // if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                  //  if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                   // else {
+                    //    storeToStorage();
                         //sendToSocket();
-                        API.sendChat(basicBot.chat.kill);
-                        basicBot.disconnectAPI();
-                        setTimeout(function () {
-                            kill();
-                        }, 1000);
-                    }
-                }
-            },
+                      //  API.sendChat(basicBot.chat.kill);
+                        //basicBot.disconnectAPI();
+                       // setTimeout(function () {
+                      //      kill();
+                      //  }, 1000);
+                //    }
+              //  }
+          //  },
 
             languageCommand: {
                 command: 'language',
