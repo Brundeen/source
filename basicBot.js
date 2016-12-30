@@ -2858,24 +2858,24 @@
                 }
             },
 
-            refreshCommand: {
-                command: 'refresh',
-                rank: 'manager',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
+            //refreshCommand: {
+                //command: 'refresh',
+                //rank: 'manager',
+                //type: 'exact',
+                //functionality: function (chat, cmd) {
+                    //if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    //else {
                         //sendToSocket();
-                        storeToStorage();
-                        basicBot.disconnectAPI();
-                        setTimeout(function () {
-                            window.location.reload(false);
-                        }, 1000);
+                        //storeToStorage();
+                        //basicBot.disconnectAPI();
+                        //setTimeout(function () {
+                            //window.location.reload(false);
+                        //}, 1000);
 
-                    }
-                }
-            },
+                    //}
+                //}
+            //},
 
             reloadCommand: {
                 command: 'reload',
@@ -3085,18 +3085,18 @@
                 }
             },
 
-            sourceCommand: {
-                command: 'source',
-                rank: 'user',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
-                    }
-                }
-            },
+            //sourceCommand: {
+                //command: 'source',
+                //rank: 'user',
+                //type: 'exact',
+                //functionality: function (chat, cmd) {
+                    //if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    //else {
+                        //API.sendChat('/me This bot was created by ' + botCreator + ', but is now maintained by ' + botMaintainer + ".");
+                    //}
+               //}
+            //},
 
             statusCommand: {
                 command: 'status',
@@ -3451,7 +3451,7 @@
 
             unlockCommand: {
                 command: 'unlock',
-                rank: 'mod',
+                rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
