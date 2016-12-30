@@ -235,7 +235,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0.0",
+        version: "1.0.1",
         status: false,
         name: "TriHardBot",
         loggedInID: null,
@@ -291,12 +291,12 @@
             ],
             afkpositionCheck: 15,
             afkRankCheck: "ambassador",
-            motdEnabled: true,
+            motdEnabled: false,
             motdInterval: 1,
             motd: ":trihard:",
             filterChat: false,
             etaRestriction: false,
-            welcome: true,
+            welcome: false,
             opLink: null,
             rulesLink: null,
             themeLink: null,
