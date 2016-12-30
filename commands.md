@@ -17,6 +17,7 @@ Manager
 |!clearchat | |clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
+|!kill | | shut down the bot |
 |!language | (language) | specify the language you would like the bot to use |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
 |!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
@@ -66,7 +67,6 @@ Bouncer
 |!historyskip | | toggles the history skip |
 |!jointime | @user | shows how long the user has been in the room |
 |!kick | (X) | kicks user for X minutes, default is 0.25 minutes (15 seconds) |
-|!kill | | shut down the bot |
 |!lockguard | | toggle the lockguard |
 |!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
