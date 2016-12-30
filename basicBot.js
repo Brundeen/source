@@ -2684,21 +2684,21 @@
                 }
             },
 
-            logoutCommand: {
-                command: 'logout',
-                rank: 'manager',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        API.sendChat(subChat(basicBot.chat.logout, {name: chat.un, botname: basicBot.settings.botName}));
-                        setTimeout(function () {
-                            $(".logout").mousedown()
-                        }, 1000);
-                    }
-                }
-            },
+            //logoutCommand: {
+                //command: 'logout',
+                //rank: 'manager',
+                //type: 'exact',
+                //functionality: function (chat, cmd) {
+                    //if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    //else {
+                        //API.sendChat(subChat(basicBot.chat.logout, {name: chat.un, botname: basicBot.settings.botName}));
+                       //setTimeout(function () {
+                            //$(".logout").mousedown()
+                        //}, 1000);
+                    //}
+                //}
+            //},
 
             maxlengthCommand: {
                 command: 'maxlength',
