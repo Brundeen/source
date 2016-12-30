@@ -238,20 +238,20 @@
     var basicBot = {
         version: "2.9.1",
         status: false,
-        name: "basicBot",
+        name: "TriHardBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+        scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
+        chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "TriHardBot",
             language: "english",
-            chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
-            scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
+            chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
+            scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -273,14 +273,14 @@
             voteSkip: false,
             voteSkipLimit: 10,
             historySkip: false,
-            timeGuard: true,
-            maximumSongLength: 10,
+            timeGuard: false,
+            maximumSongLength: 12,
             autodisable: false,
-            commandCooldown: 30,
+            commandCooldown: 5,
             usercommandsEnabled: true,
             thorCommand: false,
             thorCooldown: 10,
-            skipPosition: 3,
+            skipPosition: 10,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
                 ["op", "This song is on the OP list. "],
@@ -294,8 +294,8 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
-            filterChat: true,
+            motd: ":trihard:",
+            filterChat: false,
             etaRestriction: false,
             welcome: true,
             opLink: null,
@@ -306,12 +306,12 @@
             website: null,
             intervalMessages: [],
             messageInterval: 5,
-            songstats: true,
+            songstats: false,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/basicBot/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/basicBot/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/basicBot/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://rawgit.com/Brundeen/custom/master/blacklists/NSFWlist.json",
+                OP: "https://rawgit.com/Brundeen/custom/master/blacklists/OPlist.json",
+                BANNED: "https://rawgit.com/Brundeen/custom/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
