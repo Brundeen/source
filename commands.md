@@ -78,6 +78,7 @@ Bouncer
 |!lockguard | | toggle the lockguard |
 |!lockskip | (reason) | skips, locks and moves the dj back up (the position can be set with !skippos) |
 |!mute | @user/(X) | mute user, for X minutes if X is specified, otherwise for an undefined period |
+|!ping | | pong! |
 |!restricteta | | toggles the restriction on eta: grey users can use it once an hour |
 |!sessionstats | | display stats for the current session |
 |!skip | (reason) | skips the dj using smartskip. actions such as locking and moving user depends on various factors (the position the dj is moved to can be set with !skippos) |
@@ -117,11 +118,10 @@ User
 |!fb | | links to the room's Facebook page (if set in the settings) |
 |!ghostbuster | @user | checks if user is ghosting |
 |!help | | links to an image to help get people started on plug |
-|~~!join~~ | | ~~join the roulette if it's up~~ |
-|~~!leave~~ | | ~~leave the roulette if you joined~~ |
+|!join | | join the roulette if it's in progress |
+|!leave | | leave the roulette if you have joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
-|!ping | | pong! |
 |!purchase | | returns link to purchase more plug notes |
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
