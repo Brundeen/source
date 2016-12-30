@@ -235,9 +235,9 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0.1",
+        version: "1.0.2",
         status: false,
-        name: "TriHardBot",
+        name: "HexBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
         cmdLink: "https://goo.gl/ENKSw4",
@@ -247,7 +247,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "TriHardBot",
+            botName: "HexBot",
             language: "english",
             chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
             scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
