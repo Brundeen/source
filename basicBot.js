@@ -305,7 +305,7 @@
             website: "http://www.hexis-rs.info",
             intervalMessages: [],
             messageInterval: 5,
-            songstats: false,
+            songstats: true,
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Brundeen/custom/master/blacklists/NSFWlist.json",
