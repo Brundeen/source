@@ -108,7 +108,7 @@ User
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
-|!autowoot | | links to PlugCubed, the advised script/plugin to use for autowooting |
+|!autowoot | | suggests RCS, the advised script/plugin to use for autowooting |
 |!ba | | explains the Brand Ambassador rank |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
