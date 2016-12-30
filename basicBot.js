@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.9.1",
+        version: "1.0.0",
         status: false,
         name: "TriHardBot",
         loggedInID: null,
