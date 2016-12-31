@@ -9,6 +9,7 @@ Co-Host
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
+|!botname | (botname) | change the default bot name |
 |!roulette | | start a game of roulette |
 
 
@@ -18,19 +19,15 @@ Manager
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!afklimit | X | sets the maximum afk time |
-|!botname | (botname) | change the default bot name |
 |!bouncer+ | | toggle bouncer+ |
 |!skippos | X | set the position to which skip and lockskip moves the dj |
 |!clearchat | |clears the chat |
 |!cycle | | toggle DJ cycle |
 |!cycletimer | X | set the maximum DJ cycle time for when cycleguard is enabled |
-|!kill | | shut down the bot |
 |!language | (language) | specify the language you would like the bot to use |
 |!locktimer | X | set the maximum time the waitlist can be locked if lockguard is enabled |
 |!maxlength | X | specify the maximum length a song can be when timeguard is enabled |
 |!motd | (X)/(message) | when no argument is specified, returns the Message of the Day, when X is specified, the MotD is given every X songs, when "message" is given, it sets the MotD to message |
-|!logout | | logs out account bot is hosted on |
-|!refresh | | refreshes the browser of whoever runs the bot |
 |!reload | | reload the bot |
 |!usercmdcd | X | set the cooldown on commands by grey users |
 |!usercommands | | toggle user commands |
