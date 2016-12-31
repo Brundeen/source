@@ -122,9 +122,7 @@ User
 |!leave | | leave the roulette if you have joined |
 |!link | | when the user is the DJ, give a link to the current song |
 |!op | | links to the OverPlayed list (if set in the settings) |
-|!purchase | | returns link to purchase more plug notes |
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
-|!thor | | users get moved to position 1 in the waitlist if they're worthy of Thor's hammer. |
 |!website | | links to the room's website (if set in the settings) |
 |!youtube | | links to the room's youtube page (if set in the settings) |
