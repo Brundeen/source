@@ -71,7 +71,7 @@
     "timelimit": "\/me @%%NAME%%, your song is longer than the limit of %%MAXLENGTH%% minutes.",
     "permissionownsong": "\/me :up: @%%NAME%% has permission to play their own production!",
     "isblacklisted": "\/me This track is on the %%BLACKLIST%% blacklist! Skipping...",
-    "isopen": "\/me The roulette is now open. Type !join to participate. (A game where a random participant is moved to a random position in the wait list)",
+    "isopen": "\/me @everyone The roulette is now open. Type !join to participate. (A game where a random participant is moved to a random position in the wait list)",
     "winnerpicked": "\/me A winner has been picked! @%%NAME%% to position %%POSITION%%.",
     "ball": "\/me @%%NAME%%: \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% is not ghosting.",
