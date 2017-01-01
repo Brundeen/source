@@ -230,8 +230,8 @@
         return str;
     };
 
-    var botCreator = "Yemasthui";
-    var botMaintainer = "Benzi"
+    var botCreator = null;
+    var botMaintainer = null
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
