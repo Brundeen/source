@@ -235,7 +235,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0.2",
+        version: "1.0.5",
         status: false,
         name: "HexBot",
         loggedInID: null,
