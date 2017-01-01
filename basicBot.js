@@ -232,7 +232,7 @@
 
     var botCreator = null;
     var botMaintainer = null
-    var botCreatorIDs = ["3851534", "4105209"];
+    var botCreatorIDs = null;
 
     var basicBot = {
         version: "1.0.5",
