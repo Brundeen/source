@@ -98,7 +98,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Brundeen/source/master/lang/langIndex.json", function (json) {
+        $.get("https://raw.githubusercontent.com/Brundeen/source/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -239,9 +239,9 @@
         status: false,
         name: "HexBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
+        scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
         cmdLink: "https://goo.gl/ENKSw4",
-        chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
+        chatLink: "https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -249,8 +249,8 @@
         settings: {
             botName: "HexBot",
             language: "english",
-            chatLink: "https://rawgit.com/Brundeen/source/master/lang/en.json",
-            scriptLink: "https://rawgit.com/Brundeen/source/master/basicBot.js",
+            chatLink: "https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json",
+            scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
             roomLock: false, // Requires an extension to re-load the script
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
@@ -308,9 +308,9 @@
             songstats: true,
             commandLiteral: "!",
             blacklists: {
-                NSFW: "https://rawgit.com/Brundeen/custom/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/Brundeen/custom/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/Brundeen/custom/master/blacklists/BANNEDlist.json"
+                NSFW: "https://raw.githubusercontent.com/Brundeen/custom/master/blacklists/NSFWlist.json",
+                OP: "https://raw.githubusercontent.com/Brundeen/custom/master/blacklists/OPlist.json",
+                BANNED: "https://raw.githubusercontent.com/Brundeen/custom/master/blacklists/BANNEDlist.json"
             }
         },
         room: {
@@ -2482,7 +2482,7 @@
                         if (msg.length <= cmd.length + 1) return API.sendChat(subChat(basicBot.chat.currentlang, {language: basicBot.settings.language}));
                         var argument = msg.substring(cmd.length + 1);
 
-                        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
+                        $.get("https://raw.githubusercontent.com/basicBot/source/master/lang/langIndex.json", function (json) {
                             var langIndex = json;
                             var link = langIndex[argument.toLowerCase()];
                             if (typeof link === "undefined") {
