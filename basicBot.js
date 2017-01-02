@@ -294,7 +294,7 @@
             motdEnabled: false,
             motdInterval: 1,
             motd: ":trihard:",
-            filterChat: false,
+            filterChat: true,
             etaRestriction: false,
             welcome: false,
             opLink: null,
