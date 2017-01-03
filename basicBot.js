@@ -1737,6 +1737,25 @@
                      }
                 }
             },
+		
+		coinflipCommand: {
+                command: ['coinflip'],
+                rank: 'residentdj',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            var crowd = API.getUsers();
+                            var msg = chat.message;
+                            var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
+                            var randomUser = Math.floor(Math.random() * crowd.length);
+                            var randomBall = Math.floor(Math.random() * basicBot.chat.coins.length);
+                            var randomSentence = Math.floor(Math.random() * 1);
+                            API.sendChat(subChat(basicBot.chat.coin, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.coins[randomBall]}));
+                     }
+                }
+            },
 
             banCommand: {
                 command: 'ban',
