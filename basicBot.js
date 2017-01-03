@@ -1750,9 +1750,9 @@
                             var msg = chat.message;
                             var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
                             var randomUser = Math.floor(Math.random() * crowd.length);
-                            var randomBall = Math.floor(Math.random() * basicBot.chat.coins.length);
+                            var randomCoin = Math.floor(Math.random() * basicBot.chat.coins.length);
                             var randomSentence = Math.floor(Math.random() * 1);
-                            API.sendChat(subChat(basicBot.chat.coin, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.coins[randomBall]}));
+                            API.sendChat(subChat(basicBot.chat.coin, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.coins[randomCoin]}));
                      }
                 }
             },
