@@ -81,6 +81,7 @@
     "isopen": "\/me @everyone The roulette is now open. Type !join to participate. (A game where a random participant is moved to a random position in the wait list)",
     "winnerpicked": "\/me A winner has been picked! @%%NAME%% to position %%POSITION%%.",
     "ball": "\/me @%%NAME%%: \"%%RESPONSE%%\"",
+    "coin": "\/me @%%NAME%%: The coin landed on \"%%RESPONSE%%\"",
     "notghosting": "[%%NAME1%%] %%NAME2%% is not ghosting.",
     "ghosting": "[%%NAME1%%] %%NAME2%% is either ghosting or not here.",
     "alreadyadding": "\/me User is already being added! Changed the desired position to %%POSITION%%.",
