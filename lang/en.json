@@ -22,6 +22,10 @@
         "gives you an old cookie that was left out in the rain, it's moldy.",
         "bakes you fresh cookies, it smells amazing."
     ],
+    "coins": [
+	    "Tails",
+	    "Heads"
+    ],
     "balls": [
         "Signs point to yes.",
         "Yes.",
