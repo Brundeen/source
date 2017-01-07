@@ -61,7 +61,7 @@ Bouncer
 |!autodisable | | toggle the autodisable |
 |!ban | @user | bans user for 1 day |
 |!blacklist / !bl | blacklistname | add the song to the specified blacklist |
-|!commanddeletion | | toggles if bot commands gets deleted |
+|!commanddeletion | | toggles if bot commands get deleted |
 |!blinfo | | get information required to blacklist a song |
 |!cycleguard | | toggles the cycleguard |
 |!dclookup / !dc | (@user) | do dclookup for user |
