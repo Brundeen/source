@@ -237,7 +237,7 @@
     var basicBot = {
         version: "1.0.9",
         status: false,
-        name: "HexBot",
+        name: "HarmBot",
         loggedInID: null,
         scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
         cmdLink: "https://goo.gl/ENKSw4",
@@ -247,7 +247,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "HexBot",
+            botName: "HarmBot",
             language: "english",
             chatLink: "https://raw.githubusercontent.com/Brundeen/source/master/lang/en.json",
             scriptLink: "https://raw.githubusercontent.com/Brundeen/source/master/basicBot.js",
