@@ -122,3 +122,4 @@ User
 |!rules | | links to the rules (if set in the settings) |
 |!theme | | links to the room's theme (if set in the settings) |
 |!website | | links to the room's website (if set in the settings) |
+|!settings | | links to a download for the recommended RCS settings (import file in RCS settings) |
