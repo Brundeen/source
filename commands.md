@@ -95,8 +95,9 @@ Resident DJ
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!coinflip | | flips a coin |
-|!gif | (message) | returns gif (from giphy) related to the tag provided. Returns a random gif if no tags are provided. |
-|!link | | give a link to the current song
+|!dance | | posts a random dancing emote |
+|!gif | (message) | posts a gif (from giphy) related to the tags provided. Posts a random gif if no tags are provided. |
+|!link | | gives a link to the current song
 
 
 
