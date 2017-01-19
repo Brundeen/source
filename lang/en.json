@@ -26,6 +26,22 @@
 	    "Tails",
 	    "Heads"
     ],
+    
+    "dance": [
+	    :pepepls:,
+	    :ditto:,
+	    :rareparrot:,
+	    :parrotdad:,
+	    :feelsrareman:,
+	    :citto:,
+	    :rarestparrot:,
+	    :carltonpls:,
+	    :rareboi:,
+	    :gir:,
+	    :spoopypls:
+	    
+    ],
+	
     "balls": [
         "Signs point to yes.",
         "Yes.",
@@ -216,6 +232,7 @@
     "thorWorthy": "\/me @%%NAME%% you're worthy of the hammer :hammer:, congratulations!",
     "thorNotWorthy": "\/me @%%NAME%% you're not worthy of the hammer.",
     "settings": "\/me Recommended RCS settings: https://goo.gl/4Cbi2R",
+    "dance": "\/me \"%%RESPONSE%%\"",
     "frozen": "\/me http://i.imgur.com/tWPE2Wy.png",
     "oscar": "\/me https://puu.sh/t6NBc.png",
     "ned": "\/me http://i.imgur.com/N5rfdw1.png",
