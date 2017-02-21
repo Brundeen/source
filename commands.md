@@ -10,7 +10,7 @@ Co-Host
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
 |!botname | (botname) | change the default bot name |
-|!roulette (x) | | start a game of roulette |
+|(x)!roulette | | start a game of roulette |
 
 
 Manager
