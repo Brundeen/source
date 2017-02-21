@@ -31,7 +31,7 @@ Manager
 |!reload | | reload the bot |
 |!usercmdcd | X | set the cooldown on commands by grey users |
 |!usercommands | | toggle user commands |
-|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit. |
+|!voteskip | (X) | when no argument is specified, returns the current voteskip limit, when X is specified, voteskip limit is updated to the new specified limit |
 
 Bouncer+
 --------
@@ -96,7 +96,7 @@ Resident DJ
 |:------:|:---------:|:--------------------------------------:|
 |!coinflip | | flips a coin |
 |!dance | | posts a random dancing emote |
-|!gif | (message) | posts a gif (from giphy) related to the tags provided. Posts a random gif if no tags are provided. |
+|!gif | (message) | posts a gif (from giphy) related to the tags provided, posts a random gif if no tags are provided |
 |!link | | gives a link to the current song
 
 
@@ -106,7 +106,7 @@ User
 
 |Command | Arguments |  Description |
 |:------:|:---------:|:--------------------------------------:|
-|!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer. |
+|!8ball | (message) | ask the bot a question, the bot will return random variations of a yes or no answer |
 |!autowoot | | suggests RCS, the advised script/plugin to use for autowooting |
 |!commands | | gives a link to the commands |
 |!cookie | (@user) | give a cookie to user |
