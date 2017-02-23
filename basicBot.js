@@ -521,7 +521,7 @@
                 }
                 else API.moderateMoveDJ(id, pos);
             },
-            /* dclookup: function (id) {
+             dclookup: function (id) {
                 var user = basicBot.userUtilities.lookupUser(id);
                 if (typeof user === 'boolean') return basicBot.chat.usernotfound;
                 var name = user.username;
@@ -553,7 +553,7 @@
                 return msg;
             }
          },
-            */
+            
         roomUtilities: {
             rankToNumber: function (rankString) {
                 var rankInt = null;
