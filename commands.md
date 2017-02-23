@@ -64,7 +64,7 @@ Bouncer
 |!commanddeletion | | toggles if bot commands get deleted |
 |!blinfo | | get information required to blacklist a song |
 |!cycleguard | | toggles the cycleguard |
-|!dclookup / !dc | (@user) | do dclookup for user |
+|!dclookup | (@user) | check if user has DCed |
 |!english | @user | ask user to speak english (asked in the language they set plug to) |
 |!eta | (@user) | shows when user will reach the booth |
 |!filter | | toggles the chat filter |
