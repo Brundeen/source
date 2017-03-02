@@ -2948,7 +2948,7 @@
                 }
             },
             
-            panoCommand: {
+            /*panoCommand: {
                 command: 'pano',
                 rank: 'user',
                 type: 'exact',
@@ -2973,8 +2973,8 @@
                     }
                 }
             },
-            
-            jiklimCommand: {
+       
+            */jiklimCommand: {
                 command: 'jiklim',
                 rank: 'user',
                 type: 'exact',
@@ -2987,7 +2987,7 @@
                 }
             },
             
-            fritszonCommand: {
+            /*fritszonCommand: {
                 command: 'fritszon',
                 rank: 'user',
                 type: 'exact',
@@ -2999,7 +2999,7 @@
                     }
                 }
             },
-            
+           */ 
             vioreCommand: {
                 command: 'viore',
                 rank: 'user',
@@ -3039,7 +3039,7 @@
                 }
             },
 		
-	    misshelsinkiCommand: {
+	    /*misshelsinkiCommand: {
                 command: 'misshelsinki',
                 rank: 'user',
                 type: 'exact',
@@ -3051,7 +3051,7 @@
                     }
                 }
             },
-		
+	*/	
 	    partCommand: {
                 command: 'part',
                 rank: 'user',
@@ -3194,21 +3194,21 @@
                 }
             },
 
-            //rouletteCommand: {
-                //command: 'roulette',
-                //rank: 'cohost',
-                //type: 'exact',
-                //functionality: function (chat, cmd) {
-                    //if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    //else {
-                       //if (!basicBot.room.roulette.rouletteStatus) {
-                            //basicBot.room.roulette.startRoulette();
-                        //}
-                    //}
-                //}
-            //},
-
+            /*rouletteCommand: {
+                command: 'roulette',
+                rank: 'cohost',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                       if (!basicBot.room.roulette.rouletteStatus) {
+                            basicBot.room.roulette.startRoulette();
+                        }
+                    }
+                }
+            },
+           */
             rulesCommand: {
                 command: 'rules',
                 rank: 'user',
