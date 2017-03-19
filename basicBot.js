@@ -302,7 +302,7 @@
             themeLink: null,
             fbLink: null,
             youtubeLink: null,
-            website: "http://www.hexis-rs.info",
+            website: ":trihard:",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
