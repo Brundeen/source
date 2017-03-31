@@ -2948,7 +2948,7 @@
                 }
             },
             
-            /*panoCommand: {
+            panoCommand: {
                 command: 'pano',
                 rank: 'user',
                 type: 'exact',
@@ -2961,7 +2961,7 @@
                 }
             },
             
-            omarCommand: {
+            /*omarCommand: {
                 command: 'omar',
                 rank: 'user',
                 type: 'exact',
