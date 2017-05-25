@@ -231,7 +231,7 @@
     "voteratio": "\/me [@%%NAME%%] @%%USERNAME%% ~ woots: %%WOOT%%, mehs: %%MEHS%%, ratio (w\/m): %%RATIO%%.",
     "website": "\/me %%LINK%%",
     "youtube": "\/me [%%NAME%%] %%LINK%%",
-    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%:green_heart:\/%%GRABS%%:purple_heart:\/%%MEHS%%:broken_heart: :feelsbadman:",
+    "songstatistics": "\/me %%ARTIST%% - %%TITLE%%: %%WOOTS%%:green_heart:\/%%GRABS%%:purple_heart:\/%%MEHS%%:broken_heart: :feelssuicideman:",
     "thorNotClose": "\/me @%%NAME%%, you're not worthy of getting close to the hammer!",
     "thorcd": "\/me @%%NAME%% you can try to lift the hammer in %%TIME%% minutes.",
     "thorWorthy": "\/me @%%NAME%% you're worthy of the hammer :hammer:, congratulations!",
