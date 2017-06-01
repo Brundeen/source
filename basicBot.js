@@ -3772,6 +3772,26 @@
                     }
                 }
             },
+		
+	    danceCommand: {
+                command: 'dance',
+                rank: 'user',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                            $("#woot").click();
+			    var crowd = API.getUsers();
+                            var msg = chat.message;
+                            var argument = msg.substring(cmd.length + 1).replace(/@/g, '');
+                            var randomUser = Math.floor(Math.random() * crowd.length);
+                            var randomDance = Math.floor(Math.random() * basicBot.chat.dances.length);
+                            var randomSentence = Math.floor(Math.random() * 1);
+                            API.sendChat(subChat(basicBot.chat.dance, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.chat.dances[randomDance]}));
+                    }
+                }
+            },
 
             unmuteCommand: {
                 command: 'unmute',
