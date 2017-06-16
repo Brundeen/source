@@ -913,7 +913,7 @@
                     else {
                           console.log(API.getUser(basicBot.room.users[i].id).role);
 			  if (API.getUser(basicBot.room.users[i].id).role == 0)
-                              API.moderateBanUser(basicBot.room.users[i].id, API.BAN.PERMA);
+                              API.moderateBanUser(basicBot.room.users[i].id, 1, API.BAN.PERMA);
                           else
     		              basicBot.room.users[i].votes.meh++;
                     }
