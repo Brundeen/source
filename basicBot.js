@@ -911,7 +911,10 @@
                         basicBot.room.users[i].votes.woot++;
                     }
                     else {
-                        basicBot.room.users[i].votes.meh++;
+                          if (API.hasPermission(basicBot.room.users[i].id, API.NONE))
+                              API.moderateBanUser(basicBot.room.users[i].id, API.BAN.PERMA);
+                          else
+    		              basicBot.room.users[i].votes.meh++;
                     }
                 }
             }
