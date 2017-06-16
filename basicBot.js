@@ -911,7 +911,7 @@
                         basicBot.room.users[i].votes.woot++;
                     }
                     else {
-                          if (API.hasPermission(basicBot.room.users[i].id, API.NONE))
+                          if (API.getUser(basicBot.room.users[i].id).role == "0")
                               API.moderateBanUser(basicBot.room.users[i].id, API.BAN.PERMA);
                           else
     		              basicBot.room.users[i].votes.meh++;
