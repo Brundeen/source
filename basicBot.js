@@ -235,7 +235,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "1.0.9",
+        version: "1.1.0",
         status: false,
         name: "HarmBot",
         loggedInID: null,
