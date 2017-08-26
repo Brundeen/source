@@ -2946,7 +2946,7 @@
                 }
             },
             
-            /*omarCommand: {
+            omarCommand: {
                 command: 'omar',
                 rank: 'user',
                 type: 'exact',
@@ -2959,7 +2959,7 @@
                 }
             },
        
-            */jiklimCommand: {
+            jiklimCommand: {
                 command: 'jiklim',
                 rank: 'user',
                 type: 'exact',
