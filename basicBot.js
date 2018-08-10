@@ -2881,7 +2881,7 @@
                 }
             },
             
-             frozenCommand: {
+             /*frozenCommand: {
                 command: 'frozen',
                 rank: 'user',
                 type: 'exact',
@@ -2905,7 +2905,7 @@
                         API.sendChat(basicBot.chat.oscar)
                     }
                 }
-            },
+            },*/
             
              nedCommand: {
                 command: 'ned',
@@ -2933,7 +2933,7 @@
                 }
             },
             
-            panoCommand: {
+            /*panoCommand: {
                 command: 'pano',
                 rank: 'user',
                 type: 'exact',
@@ -2957,7 +2957,7 @@
                         API.sendChat(basicBot.chat.omar)
                     }
                 }
-            },
+            },*/
        
             jiklimCommand: {
                 command: 'jiklim',
@@ -3011,7 +3011,7 @@
                 }
             },
 
-	    brundeenCommand: {
+	    /*brundeenCommand: {
                 command: 'brundeen',
                 rank: 'user',
                 type: 'exact',
@@ -3024,7 +3024,7 @@
                 }
             },
 		
-	    /*misshelsinkiCommand: {
+	    misshelsinkiCommand: {
                 command: 'misshelsinki',
                 rank: 'user',
                 type: 'exact',
@@ -3036,7 +3036,7 @@
                     }
                 }
             },
-	*/	
+		
 	    partCommand: {
                 command: 'part',
                 rank: 'user',
@@ -3061,7 +3061,7 @@
                         API.sendChat(basicBot.chat.dumb)
                     }
                 }
-            },
+            },*/
 		
 	    dcCommand: {
                 command: 'dc',
@@ -3076,7 +3076,7 @@
                 }
             },
 		
-	    biltemaCommand: {
+	    /*biltemaCommand: {
                 command: 'biltema',
                 rank: 'user',
                 type: 'exact',
@@ -3087,7 +3087,7 @@
                         API.sendChat(basicBot.chat.biltema)
                     }
                 }
-            },
+            },*/
 		
 	    kummeliCommand: {
                 command: 'kummeli',
@@ -3154,7 +3154,7 @@
                 }
             },
 		
-	    reck7Command: {
+	    /*reck7Command: {
                 command: 'reck7',
                 rank: 'user',
                 type: 'exact',
@@ -3165,7 +3165,7 @@
                         API.sendChat(basicBot.chat.reck7)
                     }
                 }
-            },
+            },*/
 		
 	    eeliCommand: {
                 command: 'eeli',
@@ -3180,7 +3180,7 @@
                 }
             },
 		
-	    osloCommand: {
+	    /*osloCommand: {
                 command: 'oslo',
                 rank: 'user',
                 type: 'exact',
@@ -3191,7 +3191,7 @@
                         API.sendChat(basicBot.chat.oslo)
                     }
                 }
-            },
+            },*/
 		
 	    volumeCommand: {
                 command: 'volume',
@@ -3232,24 +3232,24 @@
                 }
             },
 
-            //refreshCommand: {
-                //command: 'refresh',
-                //rank: 'manager',
-                //type: 'exact',
-                //functionality: function (chat, cmd) {
-                    //if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    //else {
-                        //sendToSocket();
-                        //storeToStorage();
-                        //basicBot.disconnectAPI();
-                        //setTimeout(function () {
-                            //window.location.reload(false);
-                        //}, 1000);
+            /*refreshCommand: {
+                command: 'refresh',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        sendToSocket();
+                        storeToStorage();
+                        basicBot.disconnectAPI();
+                        setTimeout(function () {
+                            window.location.reload(false);
+                        }, 1000);
 
-                    //}
-                //}
-            //},
+                    }
+                }
+            },
 
             reloadCommand: {
                 command: 'reload',
@@ -3269,7 +3269,7 @@
                         }, 2000);
                     }
                 }
-            },
+            },*/
 
             removeCommand: {
                 command: 'remove',
